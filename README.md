@@ -11,13 +11,18 @@ java 11 + Spring boot
 вывод отсортирован при получении из кучи, согласно хэшам букв
 
 не удалось достичь 9 мб кучи
+
 память (-Xmx15m)
+
 15 мб - 2 колонка
+
 27 мб - 1 колонка
+
 13 мб - 0 колонка
 
 колонка по умолчанию в application.properties
 
 запуск
 mvn package -DskipTests=true
+
 java -jar target/airports-0.0.1-SNAPSHOT.jar [номер колонки]
