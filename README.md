@@ -1,7 +1,9 @@
 Тестовое задание в Renue
 
 Решение с помощью префиксного дерева.
+
 Автор: Шельпяков Дмитрий
+
 java 11 + Spring boot
 
 Фильтрация строк - найти все строки, начинающиеся на {вводимая строка}
@@ -23,6 +25,7 @@ java 11 + Spring boot
 колонка по умолчанию в application.properties
 
 запуск
+
 mvn package -DskipTests=true
 
 java -jar target/airports-0.0.1-SNAPSHOT.jar [номер колонки]
